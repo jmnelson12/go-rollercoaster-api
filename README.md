@@ -12,11 +12,11 @@ To be able to show the desired features of curl this REST API must match a few
 requirements:
 
 - [x] `GET /coasters` returns list of coasters as JSON
-- [ ] `GET /coasters/{id}` returns details of specific coaster as JSON
+- [x] `GET /coasters/{id}` returns details of specific coaster as JSON
 - [x] `POST /coasters` accepts a new coaster to be added
 - [x] `POST /coasters` returns status 415 if content is not `application/json`
-- [ ] `GET /admin` requires basic auth
-- [ ] `GET /coasters/random` redirects (Status 302) to a random coaster
+- [x] `GET /admin` requires basic auth
+- [x] `GET /coasters/random` redirects (Status 302) to a random coaster
 
 ### Data Types
 
